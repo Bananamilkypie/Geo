@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pujian Acak ✨</title>
+  <link rel="stylesheet" href="P.css" />
+</head>
+<body>
+  <audio autoplay loop hidden>
+    <source src="https://jumpshare.com/s/gJKVMf5od4Qg2tnVwM4v" type="audio/mpeg">
+  </audio>
+
+  <h1>ADA PESAN TERSIRAT IKUTIN PETUNJUK YA BUL</h1>
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTVlc3FtczFzc3BpdzhrMnVicjQyNXZ4bmszbGx2MWJxaTZ1cTA0NCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/cnnzb1Z1qJd04LvnCZ/giphy.gif" alt="gif3">
+  <div class="box" id="pujianBox">Klik tombol di bawah ini~</div>
+  <button onclick="acakPujian()">Pencet Berkali2 ya</button>
+  <button onclick="window.location.href='P4.html'">💘 Lanjut Terakhir</button>
+
+  <script>
+      let indexPujian = 0; // mulai dari 0
+
+function acakPujian() {
+  const pujian = [
+    "HAIIIIII",
+    "MAAF YA BULL, AKU BIKIN KAMU KESEL TERUS TIAP HARI",
+    "TAPI AKU NGANGENIN GAA WKWKWK",
+    "JANGAN BT BT LAGII YAA CANTIKK",
+    "HARI INI JALAN YUK?"
+  ];
+
+  document.getElementById("pujianBox").innerText = pujian[indexPujian];
+  indexPujian++;
+    
+  if (indexPujian >= pujian.length) {
+      indexPujian = 0;
+    }
+    }
+  </script>
+</body>
+</html>
